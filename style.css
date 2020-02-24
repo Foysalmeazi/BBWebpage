@@ -1,6 +1,8 @@
 .body{
    padding: 0;
    margin: 0;
+   /* min-width: 1200px;
+   position: absolute; */
 }
 .contain
 {
@@ -685,3 +687,666 @@ list-style-type: none;
     padding-top: 30px;
     margin-left: 1100px;
 }
+@media only screen and (max-width:1600px)
+{
+.items ul
+{
+    margin-left: 310px;
+        
+}
+.items ul li {
+    padding: 30px 10px;  
+ }
+ .items ul li a{
+    font-size: 25px;
+    padding:35px 20px;
+}
+/* step1 start */
+.Alldots
+{
+    max-height: 400px;
+    margin-top: 388px;
+    margin-left: 34rem;
+}
+.Dots
+{
+    display: flex;
+    height: 29px;
+    box-sizing:border-box ;
+   
+   
+}
+#dot
+{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-right: 40px;
+    background-color:#ffffff;
+    
+}
+/* step1 end */
+/* step2 start */
+.step2 .Textdiv p
+{
+    margin-left: 36rem;
+    margin-top: 60px;
+}
+.step2 .Textdiv img
+{
+    margin-left: 29rem;
+    height: 400px;
+}
+.step2 .Textdiv #First
+{
+    font-size: 60px;
+    color: #f4f4f4;
+    text-transform: uppercase;
+}
+.step2 .Textdiv #Second
+{
+    font-size: 60px;
+    color: #8a0304;
+    text-transform: uppercase;
+}
+.Textdiv #storypara{
+    text-align: justify;
+    margin-left: 120px;
+    max-width: 69rem;
+    font-size: 20px;
+    color: #979797;
+    
+}
+.Textdiv #storypara #lastline
+{
+    margin-left: 200px;
+}
+/* step2 end */
+/* step3 start */
+.st3allitems p{
+    width: 840px;
+    font-size: 20px;
+    margin-left: 80px;
+}
+.st3allitems .col-sm-9 p #sp
+{
+    word-spacing: 21px;
+}
+.fa
+{
+    background-color: cornsilk;
+    height: 60px;
+    width: 60px;
+    color: #324651;
+    border-radius: 50%;
+    padding-top: 25px;
+}
+
+.col-sm-9 .icon 
+{
+   margin-left: 380px;
+   margin-top: 250px;
+}
+/* step3 end */
+/* step4 start */
+.step4items h2{
+    font-size: 60px;
+    margin-left: 43rem;
+    text-transform: uppercase;
+    padding-top: 40px;
+    margin-bottom: 35px;
+}
+.step4items p{
+    color: #666161;
+    font-weight: 400;
+    width: 78rem;
+    text-align: justify;
+    margin-left: 11rem;
+    word-spacing: 1.9px;
+    
+ 
+}
+
+.step4items  #sndpara
+{
+    word-spacing: 8px;
+    color: #666161;
+    margin-left: 11rem;
+    text-align: justify;
+    line-height: 10px;
+}
+.col-md-12 .images img{
+    padding-right: 100px;
+    padding-bottom: 80px;
+    height: 500px;
+    width: 450px;
+}
+.col-md-12 .images
+{
+   margin-left: 120px;
+  
+}
+.step4 .SecondStepDots
+{
+    padding-bottom: 22px;
+    padding-left: 30px;
+    padding-top: 20px;
+    
+}
+
+.step4 .SecondStepDots #STdot
+{
+    display: flex;
+    height: 10px;
+    padding-top: 30px;
+    margin-left: 78rem;
+  
+}
+.step4 .SecondStepDots #STdot #sdot
+{
+    background-color: #aaaaaa;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin-right: 45px;
+
+}
+
+
+.st4lastpart
+{
+    background-color: #262626;
+    width: 98%;
+    height: 370px;
+    margin: 0;
+    padding: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+  
+}
+.st4lastpart #STdot
+{
+    display: flex;
+    /* height: 30px; */
+    margin-left: 80rem; 
+    margin-top: 0;
+    padding-top: 10px;
+  
+} 
+.st4lastpart  #STdot #sdot
+{
+    background-color: #aaaaaa;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin-right: 45px;
+}
+.st4lastpart #our
+{
+    font-size: 60px;
+    color:#fbfbfb; 
+}
+.st4lastpart .clients h2{
+    margin-left: 43rem;
+    font-size: 60px;
+}
+.st4lastpart .clients #imi
+{
+    margin-top: 40px;
+    margin-left: 310px;
+    margin-bottom: 50px;
+}
+.st4lastpart .clients #imi img
+{
+    padding-left: 2px;
+    height: 150px;
+    width: 850px;
+}
+
+/* step4 end */
+/* step5 start */
+.step5 .lowerpart #Title
+{
+    margin-left: 42rem;
+}
+.step5 .lowerpart #subtitles
+{
+   margin-left: 330px;
+}
+.step5 .lowerpart #subtitles #sptg
+{
+    padding-left: 400px;
+}
+.step5 .lowerpart ul
+{
+    margin-left: 37rem;
+    margin-bottom: 70px;
+}
+.step5 .lowerpart ul li{
+    list-style-type: none;
+    padding-right: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #8b8b8b;
+    font-weight: 700;
+    
+}
+.step5 .row .col-md-12{
+    margin-left: 200px;
+}
+.step5 .lowerpart #btn
+{
+    margin-left: 780px;
+   
+}
+/* step5 end */
+/* step6 start */
+.step6 h2{
+ 
+    margin-left: 43rem;
+    font-size: 60px;
+}
+.step6 form .formin
+{
+    margin-left: 220px;
+}
+.step6 form .formin input
+{
+    margin-left: 32px;
+}
+.step6 form #textdiv input
+{
+    width: 72rem;
+    height: 114px;
+    margin-left: 252px;
+}
+.step6 form button
+{
+    margin-left: 48rem;
+    margin-top: 60px;
+    margin-bottom: 60px;
+ 
+}
+/* step6 end */
+/* step7 start */
+.step7 .row .socialmediaicon
+{
+    margin-left: 90px;
+    position: absolute;
+}
+.step7 .row .socialmediaicon .fa 
+{
+    height: 40px;
+    width: 40px;
+    background-color: #fafafa;
+    border-radius: 50%;
+    margin-top: 10px;
+    padding-top: 13px;
+    margin-left: 20px;
+ 
+  
+}
+.step7 .row .socialmediaicon .fa-facebook
+{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0;
+}
+.step7 .row .socialmediaicon .fa-google-plus
+{
+    margin-right: -55px;
+/* step7 end */
+}
+.step7 .row .col-md-6 a{
+    color: #ffffff;
+    font-size: 21px;
+    /* margin-top: 150px; */
+   
+}
+.step7 .row .col-md-6  p{
+    width: 600px;
+}
+.step7 .row .col-md-3 #STdot
+{
+    display: flex;
+    height: 30px;
+    padding-top: 35px;
+    margin-left: 50px;
+    
+}
+.step7 .row .col-md-3 #STdot #sdot
+{
+    background-color: #c2b8b8;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin-right: 45px;
+    margin-top: 307px;
+    
+    
+}
+.step8 #lastdive p{
+   
+    margin-left: 560px;
+}
+
+}
+
+
+@media only screen and (max-width: 1024px)
+{
+    .Header .header_container .img img
+    {
+        height: 180px;
+        padding:30px;
+        padding-left: 60px;
+    
+    }
+    .items ul
+    {
+        margin-left: -9px;
+
+     
+    }
+     
+    .items ul li a
+    {
+        font-size: 22px;
+        padding:40px 5px;
+    }
+    .bodypartstep1 #ids #para
+    {
+    font-size: 50px;
+    padding-left: 140px;
+    }
+   .bodypartstep1 #ids #para2
+   {
+    color: #cccccc;
+    font-size: 50px;
+    font-weight: 800;
+   }
+  .bodypartstep1  #para3{
+    color: #d3d3d3;
+    font-size: 28px;
+    padding-left: 30px;
+    width: 800px;
+    letter-spacing: 2px; 
+   }
+.bodypartstep1 button
+{
+  font-size: 25px;
+  padding: 8px 15px;
+  margin-left: 190px;
+}
+.Loader_Dots #Ldot
+{
+
+    margin-left: 235px;
+}
+.SecondStepDots #STdot
+{
+    margin-left: 60px;
+}
+.Alldots
+{
+    max-height: 400px;
+    margin-top: 378px;
+    margin-left: 10px;
+}
+.step2 .Textdiv p
+{
+    margin-left: 17rem;
+}
+.step2 .Textdiv img
+{
+    margin-left: 10rem;
+}
+.step2 .Textdiv #First
+{
+    font-size: 51px;
+    color: #f4f4f4;
+    text-transform: uppercase;
+}
+.step2 .Textdiv #Second
+{
+    font-size: 51px;
+    color: #8a0304;
+    text-transform: uppercase;
+}
+.Textdiv #storypara{
+    text-align: justify;
+    margin-left: -64px;
+    max-width: 890px;
+    font-size: 22px;
+    color: #979797;
+}
+.bodypartstep1
+{
+    height: 1150px; 
+}
+.Textdiv #storypara #lastline
+{
+    margin-left: 30px;
+}
+.st3allitems img
+{
+    height: 280px;
+    width: 240px;
+}
+.st3allitems p
+{
+    margin-left: -20px;
+    width: 700px;
+}
+.st3allitems .col-sm-9 p #sp
+{
+    word-spacing: 10px;
+}
+
+.col-sm-9 .icon
+{
+    font-size: 25px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+   
+}
+.step4items h2
+{
+    margin-left: 21rem;
+}
+
+.step4items p
+{
+    margin-left: 2rem;  
+    width: 860px;
+}
+.step4items #fstpara
+{
+    word-spacing: 5px;
+    text-align: justify;
+ 
+}
+.step4items  #sndpara
+{
+    word-spacing: 7px;
+    margin-left: 2rem;
+    text-align: justify;
+    margin-right: 30px;
+}
+.step4items  #sndpara #mrc
+{
+    margin-left: 30px;
+}
+.col-md-12 .images img{
+    padding-right: 20px;
+    padding-bottom: 20px;
+    height: 240px;
+    width: 240px;
+   
+}
+.col-md-12 .images
+{
+   margin-left: 90px;
+
+}
+.step4 .SecondStepDots
+{
+    padding-bottom: 12px;
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
+
+.step4 .SecondStepDots #STdot
+{
+    display: flex;
+    height: 20px;
+    padding-top: 35px;
+    margin-left: 50rem;
+  
+}
+.step4 .SecondStepDots #STdot #sdot
+{
+    margin-right: 22px
+}
+.st4lastpart
+{
+    width: 97%;
+}
+.st4lastpart .clients h2{
+    margin-left: 21rem;
+}
+.st4lastpart .clients #imi
+{
+    margin-top: 30px;
+    margin-left: 110px;
+    margin-bottom: 30px;
+}
+.st4lastpart .clients #imi img
+{
+    height: 100px;
+    width: 650px;
+}
+.st4lastpart #STdot
+{
+    margin-left: 50.7rem; 
+ 
+} 
+.st4lastpart  #STdot #sdot
+{
+    margin-right: 22px;
+    margin-top: 10px;
+}
+/* step5 start */
+.step5 .lowerpart #Title
+{
+    font-size: 60px;
+    padding-top: 70px;
+    margin-left: 21rem;
+}
+.step5 .lowerpart #subtitles
+{
+   padding-top: 30px;
+   margin-left:80px;
+   padding-bottom: 40px;
+   width: 860px;
+   word-spacing: 1px;
+   font-size: 12px;
+}
+.step5 .lowerpart #subtitles #sptg
+{
+    padding-left: 280px;
+}
+.step5 .lowerpart ul li{
+    padding-right: 8px;
+    
+}
+.step5 .lowerpart ul
+{
+    margin-left: 12rem;
+}
+.step5 .lowerpart #btn
+{
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    margin-left: 386px;
+}
+.step5 .row .col-md-12{
+    margin-left: 15px;
+}
+.step5 .row img{
+    padding-left: 15px;
+    height: 300px;
+    width: 300px;
+}
+/* step5 end */
+/* step6 start */
+.step6 h2
+{
+    font-size: 60px;
+    margin-left: 17rem;
+    padding-bottom: 100px;
+}
+.step6 form .formin
+{
+    margin-left: 25px;
+}
+.step6 form .formin input
+{
+    width: 260px;
+    margin-left: 30px;
+}
+.step6 form #textdiv input
+{
+    margin-left: 55px;
+    width: 850px;
+}
+.step6 form button
+{
+    margin-left: 320px;
+    margin-top: 80px;
+}
+/* step6 end */
+/* step7 start */
+.step7 img{
+    height: 374px;
+    width: 340px;
+    color: darkgrey;
+    padding-left: 40px;
+   
+}
+.step7 .col-md-6
+{
+    padding:100px 120px;
+    
+}
+.step7 .row .socialmediaicon .fa 
+{
+    background-color: #fafafa;
+    border-radius: 50%;
+    /* margin-top: 10px; */
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    padding-top: 25px;
+  
+}
+.step7 .row .col-md-3 #STdot
+{
+    display: flex;
+    height: 30px;
+    padding-top: 15px;
+    margin-left: 40px;
+    
+}
+.step7 .row .col-md-3 #STdot #sdot
+{
+    height: 12px;
+    width: 12px;
+    margin-right: 25px;
+    margin-top: 340px;
+    
+}
+/* step7 end */
+}
+
